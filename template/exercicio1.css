@@ -1,16 +1,16 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.pictures-container{
-    width : 100%;
-    height: auto;
+.pictures-container {
+  width: 100%;
+  height: auto;
 }
 
-img{
-    object-fit:cover;
-    max-width: 100%;
-    height:auto
+img {
+  object-fit: cover;
+  max-width: 100%;
+  height: auto;
 }
