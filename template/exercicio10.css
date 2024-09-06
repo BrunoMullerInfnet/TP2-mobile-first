@@ -1,0 +1,13 @@
+@import url("css/exer10/exercicio10-1.css") screen and (min-width: 600px);
+
+@import url("css/exer10/exercicio10-2.css") screen and (orientation: landscape);
+
+@import url("css/exer10/exercicio10-3.css") screen and (min-height: 900px) and
+  (max-width: 800px);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
