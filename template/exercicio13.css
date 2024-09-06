@@ -43,6 +43,18 @@ body {
   }
 
   .btn:hover {
+    background-color: pink;
+    transform: translateY(-3px);
+  }
+}
+
+@media (pointer: fine) {
+  .btn {
+    background-color: black;
+    color: white;
+  }
+
+  .btn:hover {
     background-color: #2980b9;
     transform: translateY(-3px);
   }
