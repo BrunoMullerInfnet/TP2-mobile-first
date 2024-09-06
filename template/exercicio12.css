@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 20px;
+  line-height: 1.5;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto; /* Centraliza a imagem horizontalmente */
+}
+
+@media(prefers-color-scheme: light){
+    :root{
+        --bg-color: #fff
+        --text-color: #333
+    }
+}
+
+@media (prefers-color-scheme:dark){
+    :root{
+        --bg-color:#121212
+        --text-color:#fff
+    }
+}
